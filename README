@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2644
+
+Erlang variables are formated in '[A-Z]\+[a-zA-Z0-9]*'.
+because, enhace default erlang.vm.
+
+see below:
+----------------------------------------------------------------------------
+syn match   erlangVariable         /[A-Z]\+[a-zA-Z0-9]*/
+hi erlangVariable guifg=#23BF73
+----------------------------------------------------------------------------
